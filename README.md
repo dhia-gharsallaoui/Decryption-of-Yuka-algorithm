@@ -30,7 +30,7 @@ Le Nutri-Score a été développé pour faciliter la compréhension des informat
 
 Ce score est une valeur comprise entre –15 et +40. Mais il se manifeste sous la forme d’un logo apposé en face avant des emballages qui informe sur la qualité nutritionnelle des produits sous une forme simplifiée. La représentation simplifiée ce décompose d’une lettre avec un couleur les lettres allant de A à E allant du meilleur au plus mauvais.   
 
-![Nutri Score](images/nutri score.png?style=centerme)
+![](images/nutri score.png?style=centerme)
 
 
 - A correspondant à une valeur comprise entre –15 et –2 
