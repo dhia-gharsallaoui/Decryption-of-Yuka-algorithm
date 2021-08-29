@@ -71,10 +71,12 @@ Il s'agit d'une bonification accordée aux produits considérés comme biologiqu
 <p align="center">
   <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/bio1.png?raw=true">
   <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/bio2.png?raw=true">   
-   
 </p>
-*Figure 4: Exemple Bio  Figure 3 Euro-feuille Label* 
 
+</p><p align="center">
+<b>Figure 3: Exemple Bio        Figure 4:  Euro-feuille Label 
+</b>
+</p>
 ## **Chapitre 2 : Décryptage de l’algorithme de** 
 
 **Yuka**  
