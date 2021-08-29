@@ -31,7 +31,7 @@ Ce score est une valeur comprise entre –15 et +40. Mais il se manifeste sous l
   <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/nutri_score.png?raw=true">   
 </p>
 <p align="center">
-   <b>Figure 1:Nutri Score</b>
+<b>Figure 1:Nutri Score</b>
 </p>
 
 
