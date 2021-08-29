@@ -74,7 +74,7 @@ Il s'agit d'une bonification accordée aux produits considérés comme biologiqu
 </p>
 
 </p><p align="center">
-<b>Figure 3: Exemple Bio   &nbsp; &nbsp; &nbsp; Figure 4:  Euro-feuille Label 
+<b>Figure 3: Exemple Bio   &emsp;  Figure 4:  Euro-feuille Label 
 </b>
 </p>
 
