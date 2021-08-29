@@ -46,6 +46,7 @@ L’application extraite les additifs existants dans un aliment et puis il fait 
 - Risque élevé (pastille rouge) 
 
 Les  informations  sur  les  risques  associés  à  chaque  additif,  ainsi  que  les  sources  scientifiques correspondantes sont affichés après la classification. 
+
 ![](images/exemple.png)
 
 *Figure 2: Exemple Liste additifs et description*
