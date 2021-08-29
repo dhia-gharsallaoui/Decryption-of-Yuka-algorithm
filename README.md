@@ -1,48 +1,9 @@
-﻿**PAGE14 |** P a g e** 
 
-![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.001.png)![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.002.png)
 
 Décryptage algorithme Yuka 
 
-GHARSALLAOUI Dhia Eddine 
 
-Université Paris Dauphine, France Dhia-eddine.Gharsallaoui@dauphine.eu 
 
-![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.003.png)
-
-**Table de matières** 
-
-[**Liste des figures ...................................................................... 3** ](#_page2_x70.00_y94.00)[Chapitre 1 : Introduction ........................................................ 4** ](#_page3_x70.00_y72.00)
-
-1. [L’application Yuka : ......................................................................................... 4 ](#_page3_x70.00_y135.00)
-1. [Fonctionnement : ........................................................................................... 4 ](#_page3_x70.00_y227.00)
-1. [Le score Yuka : ................................................................................................ 4 ](#_page3_x70.00_y318.00)
-1. [Nutri-Score : ................................................................................................ 4 ](#_page3_x113.00_y486.00)
-1. [Additifs : ...................................................................................................... 5 ](#_page4_x113.00_y235.00)
-1. [BIO ............................................................................................................... 6 ](#_page5_x70.00_y117.00)
-
-[**Chapitre 2 : Décryptage de l’algorithme de Yuka .................... 7** ](#_page6_x70.00_y72.00)
-
-1. [Construction de la base : ................................................................................ 7 ](#_page6_x70.00_y200.00)
-1. [Analyse corrélation : ....................................................................................... 8 ](#_page7_x70.00_y72.00)
-1. [Fonction utilité Nutri-score : ........................................................................... 9 ](#_page8_x70.00_y106.00)
-1. [Application Machine Learning : .................................................................... 12 ](#_page11_x91.00_y72.00)
-1. [Pré-processing : ......................................................................................... 12 ](#_page11_x70.00_y182.00)
-1. [Les Modèles : ............................................................................................. 12 ](#_page11_x70.00_y474.00)
-1. [Résultats avec des additifs : ....................................................................... 12 ](#_page11_x70.00_y617.00)
-1. [Résultats sans des additifs ......................................................................... 13 ](#_page12_x70.00_y376.00)
-
-   5. [Conclusion : .................................................................................................. 14 ](#_page13_x70.00_y123.00)
-
-**Liste des figures** 
-
-[Figure 1: Nutri Score ..................................................................................................................... 5 ](#_page4_x70.00_y131.00)[Figure 2: Exemple Liste additifs et description .............................................................................. 5 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76556990)[Figure 3 Euro-feuille Label............................................................................................................. 6 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76556991)[Figure 4: Exemple Bio .................................................................................................................... 6 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76556992)[Figure 5: Composition de la base .................................................................................................. 7 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76556993)[Figure 6 : Capture Base ................................................................................................................. 7 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76556994)
-
-[Figure 7 Heatmap des corrélations ............................................................................................... 8 ](#_page7_x70.00_y556.00)[Figure 8: Exemple de calcul de UN ................................................................................................. 9 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76556996)[Figure 9: Exemple de UN des aliments Bio ..................................................................................... 9 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76556997)[Figure 10: Exemple de UN des aliments NON Bio ........................................................................ 10 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76556998)[Figure 11: UN en fonction de Nutri-score pour les aliments BIO ................................................. 10 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76556999)[Figure 12: UN en fonction de Nutri-score pour les aliments NON BIO ......................................... 10 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76557000)[Figure 13: fonction Utilité UN en fonction de Nutri-score ........................................................... 10 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76557001)[Figure 14: Contre-exemple de la monotonie du Score Yuka ....................................................... 11 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76557002)[Figure 15: "One-Hot Encoding" appliqué sur additifs .................................................................. 12 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76557003)[Figure 16: Comparaison de l'erreur absolue moyenne pour chaque modèle ............................. 13 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76557004)[Figure 17: Comparaison de l'erreur absolue moyenne pour chaque modèle sans additif .......... 13 ](https://universitedauphine-my.sharepoint.com/personal/dhia-eddine_gharsallaoui_dauphine_eu/Documents/D%C3%A9cryptage%20algorithme%20Yuka.docx#_Toc76557005)
-
-- *Un bon croquis vaut mieux qu'un long discours. »* 
-
-` `*Napoléon Bonaparte* 
 
 **Chapitre 1 : Introduction** 
 
