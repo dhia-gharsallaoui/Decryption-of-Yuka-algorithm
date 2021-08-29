@@ -27,7 +27,12 @@ On peut voir que les facteurs qui détermine la note d’un aliment allant de le
 Le Nutri-Score a été développé pour faciliter la compréhension des informations nutritionnelles par les consommateurs  et  ainsi  de  les  aider  à  faire  des  choix  éclairés  d’où  la  lutte  contre  les  maladies cardiovasculaires, l'obésité et le diabète.[1]  Ce score se calcule à la base d’une évaluation de 100g ou 100mL d’un produit. Cette évaluation se divise sur deux comportements. Le premier c’est l’augmentation avec la quantité des nutriments favorable comme les fibres, les légumes, les fruits et les protéines. Le deuxième c’est la diminution avec les nutriments défavorables comme l’énergie, les acides gras saturés, les sucres et le sel. 
 
 Ce score est une valeur comprise entre –15 et +40. Mais il se manifeste sous la forme d’un logo apposé en face avant des emballages qui informe sur la qualité nutritionnelle des produits sous une forme simplifiée. La représentation simplifiée ce décompose d’une lettre avec un couleur les lettres allant de A à E allant du meilleur au plus mauvais.   
+
 ![Nutri score](images/nutri_score.png?style=centerme)
+<p align="center">
+<b>Figure 1:Nutri Score
+</b>
+</p>
 
 
 - A correspondant à une valeur comprise entre –15 et –2 
@@ -48,8 +53,10 @@ L’application extraite les additifs existants dans un aliment et puis il fait 
 Les  informations  sur  les  risques  associés  à  chaque  additif,  ainsi  que  les  sources  scientifiques correspondantes sont affichés après la classification. 
 
 ![](images/exemple.png)
-
-*Figure 2: Exemple Liste additifs et description*
+<p align="center">
+<b>Figure 2: Exemple Liste additifs et description
+</b>
+</p>
 
 Ce critère compte de 30% du score Yuka. 
 
