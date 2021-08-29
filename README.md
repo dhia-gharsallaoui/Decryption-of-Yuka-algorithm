@@ -55,8 +55,9 @@ L’application extraite les additifs existants dans un aliment et puis il fait 
 
 Les  informations  sur  les  risques  associés  à  chaque  additif,  ainsi  que  les  sources  scientifiques correspondantes sont affichés après la classification. 
 
-![](images/exemple.png)
 <p align="center">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/exemple.png?raw=true">   
+</p><p align="center">
 <b>Figure 2: Exemple Liste additifs et description
 </b>
 </p>
@@ -67,8 +68,11 @@ Ce critère compte de 30% du score Yuka.
 
 Il s'agit d'une bonification accordée aux produits considérés comme biologiques. Les produits considérés comme biologiques portent un label biologique européen (Euro-feuille). 
 
-![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.006.png)![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.007.png)
-
+<p align="center">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/bio1.png?raw=true">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/bio2.png?raw=true">   
+   
+</p>
 *Figure 4: Exemple Bio  Figure 3 Euro-feuille Label* 
 
 ## **Chapitre 2 : Décryptage de l’algorithme de** 
