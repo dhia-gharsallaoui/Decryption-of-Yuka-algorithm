@@ -85,12 +85,15 @@ Dans ce chapitre on va parler des travaux réalisés pour comprendre mieux l’a
 1. **Construction de la base :** 
 
 Afin d’atteindre notre objectif on a besoin de préparer une base de données qui contient à la fois tous les éléments utilisés pour calculer le score Yuka et le score Yuka même. 
+<p align="center">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/base.png?raw=true">   
+</p>
+<p align="center">
+<b>Figure 5: Composition de la base
+</b>
+</p>
 
-Base
 
-Composition  Score Yuka du produit![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.008.png) du produit
-
-*Figure 5: Composition de la base* 
 
 - Composition du produit : 
 
