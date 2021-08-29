@@ -19,7 +19,7 @@ La lecture du code-barres d'un produit par téléphone permet à l'application d
 
 Ce que nous intéresse c’est la fonction d’attribution de ce score.  On veut décrypter la fonction de calcul de ce score en commençant par les informations disponibles sur le site de l’application qui dit que ce score est sous la forme suivante. 
 <p align="center">
-Score Yuka= 0.6\*U<sub>N</sub>(Nutri score) + 0.3\* U<sub>A</sub>(additives) + 0.1\* U<sub>B</sub>(Bio)  
+**Score Yuka= 0.6\*U<sub>N</sub>(Nutri score) + 0.3\* U<sub>A</sub>(additives) + 0.1\* U<sub>B</sub>(Bio)**  
 </p>
 
 
