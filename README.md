@@ -1,6 +1,4 @@
-
 {% include image.html %}
-
 # **Décryptage algorithme Yuka**
 ![](images/yuka.png?style=centerme)
 
