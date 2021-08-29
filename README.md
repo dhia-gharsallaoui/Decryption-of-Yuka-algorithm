@@ -18,9 +18,9 @@ La lecture du code-barres d'un produit par téléphone permet à l'application d
 3. **Le score Yuka :** 
 
 Ce que nous intéresse c’est la fonction d’attribution de ce score.  On veut décrypter la fonction de calcul de ce score en commençant par les informations disponibles sur le site de l’application qui dit que ce score est sous la forme suivante. 
-<p style="text-align: center;">  
+<center>
 **Score Yuka= 0.6\*U (Nutri score) + 0.3\* U (additives) + 0.1\* U (Bio)    (1)**
-</p>
+</center>
 **N A B**
 
 On peut voir que les facteurs qui détermine la note d’un aliment allant de le plus impactant au moins sont le **Nutri Score**, les **additifs** et le critère **BIO**.  On va commencer détailler les entrées de cette formule et essayer de les comprendre chacun seul sans tenir en compte leurs corrélation. 
