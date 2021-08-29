@@ -1,8 +1,7 @@
 
 
 # **Décryptage algorithme Yuka**
-
-
+![](images/yuka.png?style=centerme)
 
 
 ## **Chapitre 1 : Introduction** 
@@ -31,9 +30,8 @@ Le Nutri-Score a été développé pour faciliter la compréhension des informat
 
 Ce score est une valeur comprise entre –15 et +40. Mais il se manifeste sous la forme d’un logo apposé en face avant des emballages qui informe sur la qualité nutritionnelle des produits sous une forme simplifiée. La représentation simplifiée ce décompose d’une lettre avec un couleur les lettres allant de A à E allant du meilleur au plus mauvais.   
 
-![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.004.png)
+![Nutri Score](images/nutri score.png?style=centerme)
 
-        *Figure 1: Nutri Score* 
 
 - A correspondant à une valeur comprise entre –15 et –2 
 - B correspondant à une valeur comprise entre –1 à +3 
