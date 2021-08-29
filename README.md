@@ -1,11 +1,11 @@
 
 
-*Décryptage algorithme Yuka*
+#Décryptage algorithme Yuka
 
 
 
 
-**Chapitre 1 : Introduction** 
+## **Chapitre 1 : Introduction** 
 
 1. **L’application Yuka :** 
 
@@ -64,7 +64,7 @@ Il s'agit d'une bonification accordée aux produits considérés comme biologiqu
 
 *Figure 4: Exemple Bio  Figure 3 Euro-feuille Label* 
 
-**Chapitre 2 : Décryptage de l’algorithme de** 
+## **Chapitre 2 : Décryptage de l’algorithme de** 
 
 **Yuka**  
 
