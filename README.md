@@ -1,6 +1,6 @@
 
 
-Décryptage algorithme Yuka 
+*Décryptage algorithme Yuka*
 
 
 
@@ -33,13 +33,14 @@ Ce score est une valeur comprise entre –15 et +40. Mais il se manifeste sous l
 
 ![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.004.png)
 
-*Figure 1: Nutri Score* 
+        *Figure 1: Nutri Score* 
 
 - A correspondant à une valeur comprise entre –15 et –2 
 - B correspondant à une valeur comprise entre –1 à +3 
 - C correspondant à une valeur comprise entre +4 à +11 
 - D correspondant à une valeur comprise entre +12 à +16  
 - E correspondant à une valeur comprise entre +17 à +40 
+
 2. **Additifs :** 
 
 L’application extraite les additifs existants dans un aliment et puis il fait les évaluer en se basant sur une base qui est formé par des études indépendantes et des avis de l’EFSA, de l’ANSES et du CIRC. L’évaluation consiste à les classer sous 4 groupes : 
