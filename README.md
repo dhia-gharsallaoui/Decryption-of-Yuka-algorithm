@@ -78,9 +78,7 @@ Il s'agit d'une bonification accordée aux produits considérés comme biologiqu
 </b>
 </p>
 
-## **Chapitre 2 : Décryptage de l’algorithme de** 
-
-**Yuka**  
+## **Chapitre 2 : Décryptage de l’algorithme de Yuka**  
 
 Dans ce chapitre on va parler des travaux réalisés pour comprendre mieux l’algorithme de Yuka et le décrypter en partant de l’hypothèse que c’est un modèle additif. 
 
