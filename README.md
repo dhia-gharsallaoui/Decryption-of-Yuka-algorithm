@@ -174,11 +174,17 @@ Après ça on a divisé ce tableau en deux en séparant les aliments avec indice
 
 Après préparer les tableaux ce dessus on a essayé de tracer les fonctions utilitées UN en fonction des Nutri- score. Les graphes représentent ces fonctions sont ce dessous nous aide à interpréter plus d’informations sur leurs variations.  
 
-![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.014.png)
+<p align="center">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/foncion Un BIO.png?raw=true">   
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/foncion Un non BIO.png?raw=true">
+</p>
+<p align="center">
+<b>Figure 13: fonction Utilité U<sub>N</sub> en fonction de Nutri-score    &emsp; &emsp; &emsp;   Figure 12: U<sub>N</sub> en fonction de Nutri-score pour les aliments NON BIO
+</b>
+</p>
+ 
 
-*Figure 13: fonction Utilité UN en fonction de Nutri-score* 
-
-*Figure 11: UN en fonction de Nutri-score pour les aliments BIO  Figure 12: UN en fonction de Nutri-score pour les aliments NON BIO ![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.015.png)![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.016.png)*
+*Figure 11: UN en fonction de Nutri-score pour les aliments BIO   ![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.015.png)![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.016.png)*
 
 En regardant les graphes ci-dessus, on peut voir qu'il y a des utilités différentes pour la même valeur de Nutri-score. D’où la fonction utilité ne respecte pas la définition d’une fonction. Et par suite elle ne peut pas être une fonction.  
 
