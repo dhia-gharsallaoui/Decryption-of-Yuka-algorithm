@@ -120,7 +120,7 @@ La base préparée est disponible sur ce lien : <b>[ https://www.kaggle.com/dhia
 Dès que la base est prête on a commencé l’exploitation. Tout d’abord on a essayé de voir la corrélation entre tous les variables et le score Yuka. Le Heatmap ci-dessous montre les degrés de corrélation. 
 
 <p align="center">
-  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/heat%20map.png?raw=true">   
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/heatmap.png?raw=true">   
 </p>
 <p align="center">
 <b>Figure 7 Heatmap des corrélations
