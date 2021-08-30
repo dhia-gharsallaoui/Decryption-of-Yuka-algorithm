@@ -172,7 +172,7 @@ Après ça on a divisé ce tableau en deux en séparant les aliments avec indice
 
 
 
-Après préparer les tableaux ce dessus on à essayer de tracer les fonctions utilité UN en fonction des Nutri- score. Les graphes représentent ces fonctions sont ce dessous nous aide à interpréter plus d’informations sur leurs variations.  
+Après préparer les tableaux ce dessus on a essayé de tracer les fonctions utilitées UN en fonction des Nutri- score. Les graphes représentent ces fonctions sont ce dessous nous aide à interpréter plus d’informations sur leurs variations.  
 
 ![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.014.png)
 
