@@ -115,6 +115,7 @@ Pour les scores de Yuka, on est sorti au supermarché. On a scanné plus que 500
 
 La base préparée est disponible sur ce lien : <b>[ https://www.kaggle.com/dhiagharsallaoui/yuka-base1 ](https://www.kaggle.com/dhiagharsallaoui/yuka-base1)
 </b>
+
 2. **Analyse corrélation :** 
 
 Dès que la base est prête on a commencé l’exploitation. Tout d’abord on a essayé de voir la corrélation entre tous les variables et le score Yuka. Le Heatmap ci-dessous montre les degrés de corrélation. 
