@@ -105,6 +105,7 @@ Pour les scores de Yuka, on est sorti au supermarché. On a scanné plus que 500
 <b>Tableau: Exemple de Base
 </b>
 </p>
+
 |     |   additives_n |   nova_group |   energy_100g |   fat_100g |   saturated-fat_100g |   sugars_100g |   fiber_100g |   proteins_100g |   salt_100g |   sodium_100g |   nutrition-score-fr_100g |   Score Yuka |
 |----:|--------------:|-------------:|--------------:|-----------:|---------------------:|--------------:|-------------:|----------------:|------------:|--------------:|--------------------------:|-------------:|
 | 509 |             0 |            1 |           384 |        1   |                  0.1 |          13   |          2.3 |             4.8 |      0.07   |       0.028   |                        -6 |           90 |
