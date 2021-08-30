@@ -115,7 +115,6 @@ Pour les scores de Yuka, on est sorti au supermarché. On a scanné plus que 500
 
 La base préparée est disponible sur ce lien : <b>[ https://www.kaggle.com/dhiagharsallaoui/yuka-base1 ](https://www.kaggle.com/dhiagharsallaoui/yuka-base1)
 </b>
-
 2. **Analyse corrélation :** 
 
 Dès que la base est prête on a commencé l’exploitation. Tout d’abord on a essayé de voir la corrélation entre tous les variables et le score Yuka. Le Heatmap ci-dessous montre les degrés de corrélation. 
@@ -185,20 +184,14 @@ Après préparer les tableaux ce dessus on a essayé de tracer les fonctions uti
 
 <p align="center">
   <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/fonction%20Un%20BIO.png?raw=true">
-</p>
-<p align="center">
-<b>Figure 12: U<sub>N</sub> en fonction de Nutri-score pour les aliments BIO
-</b>
-</p>
-
-
-<p align="center">
   <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/fonction%20Un%20non%20BIO.png?raw=true">
 </p>
 <p align="center">
-<b>Figure 13: U<sub>N</sub> en fonction de Nutri-score pour les aliments NON BIO
+<b>Figure 12: U<sub>N</sub> en fonction de Nutri-score pour les aliments BIO  &emsp; &emsp; &emsp;  Figure 13: U<sub>N</sub> en fonction de Nutri-score pour les aliments NON BIO
 </b>
-</p> 
+</p>
+
+
 
 
 En regardant les graphes ci-dessus, on peut voir qu'il y a des utilités différentes pour la même valeur de Nutri-score. D’où la fonction utilité ne respecte pas la définition d’une fonction. Et par suite elle ne peut pas être une fonction.  
