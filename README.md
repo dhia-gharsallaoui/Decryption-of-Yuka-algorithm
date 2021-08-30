@@ -103,12 +103,18 @@ On a pris les ingrédients à partir de « OpenFoodFacts ». OpenFoodFacts est u
 
 Pour les scores de Yuka, on est sorti au supermarché. On a scanné plus que 500 produits. En faisant la combinaison de la base OpenFoodFacts et les scores Yuka des produits scannés, on a eu une base complète pour commencer les analyses. 
 
-![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.009.png)
+<p align="center">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/capture base.png?raw=true">   
+</p>
+<p align="center">
+<b>Figure 6 : Capture Base
+</b>
+</p>
 
-*Figure 6 : Capture Base* 
+ 
 
-La base préparée est disponible sur ce lien : [ https://www.kaggle.com/dhiagharsallaoui/yuka-base1 ](https://www.kaggle.com/dhiagharsallaoui/yuka-base1)
-
+La base préparée est disponible sur ce lien : <b>[ https://www.kaggle.com/dhiagharsallaoui/yuka-base1 ](https://www.kaggle.com/dhiagharsallaoui/yuka-base1)
+</b>
 2. **Analyse corrélation :** 
 
 Dès que la base est prête on a commencé l’exploitation. Tout d’abord on a essayé de voir la corrélation entre tous les variables et le score Yuka. Le Heatmap ci-dessous montre les degrés de corrélation. 
