@@ -214,21 +214,26 @@ D’où j’ai décidé de faire un recours sur des modèles non additifs et je 
 
 Après l’élimination de l’hypothèse que score Yuka est sous cette forme additive : 
 
-**Score Yuka= 0.6\*U (Nutri score) + 0.3\* U (additives) + 0.1\* U (Bio)   (1)** 
-
-**N A B**
+<p align="center">
+<b>Score Yuka= 0.6*U<sub>N</sub>(Nutri score) + 0.3* U<sub>A</sub>(additives) + 0.1* U<sub>B</sub>(Bio)</b>
+</p>
 
 On a pensé à faire des essais avec les modèles de Machine Learning.  
 
 1. **Pré-processing :** 
 
-Afin d’avoir des bons résultats, on a commencé à préparer les entrés de modèles. Pour atteindre notre objective on a utilisé une technique qui s’appelle « One-Hot Encoding ».  Cette technique nous permet de transformer  une  variable  catégorique  en  plusieurs  variables  binaires.  On  l’a  utilisé  pour  la  variable 
+Afin d’avoir des bons résultats, on a commencé à préparer les entrés de modèles. Pour atteindre notre objective on a utilisé une technique qui s’appelle « One-Hot Encoding ».  Cette technique nous permet de transformer  une  variable  catégorique  en  plusieurs  variables  binaires.  On  l’a  utilisé  pour  la  variable  **« additifs »** en la transformant à 101 variables binaires.
+Le résultat se trouve dans la figure ce dessous.
+<p align="center">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/one-hot%20encoding.png?raw=true">
+</p>
+<p align="center">
+<b>Figure 15: "One-Hot Encoding" appliqué sur additifs
+</b>
+</p> 
+ 
 
-![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.018.png)
-
-*Figure 15: "One-Hot Encoding" appliqué sur additifs* 
-
-- **additifs »** en la transformant à 101 variables binaires. Le résultat se trouve dans la figure ce dessous. Maintenant les entrés sont prêts et on peut commencer l’apprentissages. 
+ Maintenant les entrés sont prêts et on peut commencer l’apprentissages. 
 2. **Les Modèles :** 
 
 Pour l’apprentissages on a décidé d’utiliser des modèles de différents comportements et architecture. Commençant par la régression linéaire pour confirmer le rejet de l’hypothèse qu’il est additif. Et après des modèles d’architecture Arbre et enfin un Modèle de Deep-learning qui est le réseau de neurones. En résumant les modèles utilisé sont comme suit : régression linéaire, arbre de décision, Random Forest et Réseau de neurones. 
