@@ -119,28 +119,36 @@ La base préparée est disponible sur ce lien : <b>[ https://www.kaggle.com/dhia
 
 Dès que la base est prête on a commencé l’exploitation. Tout d’abord on a essayé de voir la corrélation entre tous les variables et le score Yuka. Le Heatmap ci-dessous montre les degrés de corrélation. 
 
-![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.010.png)
+<p align="center">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/heat map.png?raw=true">   
+</p>
+<p align="center">
+<b>Figure 7 Heatmap des corrélations
+</b>
+</p>
 
-*Figure 7 Heatmap des corrélations* 
+
 
 Ce Heatmap confirme les informations données par Yuka. On peut voir que le **Nutri score** est le plus corrélé avec le score Yuka avec -0.81. Cette corrélation est négative ce qui est logique car le nutri score diminue avec l’augmentation de la qualité de nutriment. Et après on l’**additives\_n** qui représente le nombre d’additive existant dans l’aliment qui est corrélé négativement aussi et enfin le **nova\_group** qui communique une information sur les transformations utilisées pour avoir le produit final. 
 
-Vu que le Nutri score est le plus impactant dans le score Yuka on va concentrer à la suite de l’étudier en étudiant la fonction utilité **U** attribué à ce dernier dans la formule  
+Vu que le Nutri score est le plus impactant dans le score Yuka on va concentrer à la suite de l’étudier en étudiant la fonction utilité **U<sub>N</sub>** attribué à ce dernier dans la formule  
 
-**N**
 
-**Score Yuka= 0.6\*U (Nutri score) + 0.3\* U (additives) + 0.1\* U (Bio)   (1)** 
-
-**N A B**
+<p align="center">
+<b>Score Yuka= 0.6*U<sub>N</sub>(Nutri score) + 0.3* U<sub>A</sub>(additives) + 0.1* U<sub>B</sub>(Bio)</b>
+</p>
 
 3. **Fonction utilité Nutri-score :** 
 
 Pour analyser mieux l’effet de Nutri score on a éliminé les effets des additifs. Par la préparation d’une sous base qui contient seulement les aliments qui sont sans additives. La contribution vient de ce critère est le maximum qui est égale à 30. 
 
 Et dans ce cas pour calculer la fonction Utilité de Nutri-score on a utilisé la formule suivante : 
-
-**UN (X) = Score Yuka(X) – (30 + 10**\* **IBIO) (2)** 
-
+<p align="center">
+<b>
+  U<sub>N</sub> (X) = Score Yuka(X) – (30 + 10*I<sub>BIO</sub>) (2)
+</b> 
+</p>
+    
 Avec **IBIO** représente l’indice Bio qui est égale à 1 si l’aliment porte la label biologique et 0 sinon. 
 
 ![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.011.png)
