@@ -223,7 +223,7 @@ On a pensé à faire des essais avec les modèles de Machine Learning.
 1. **Pré-processing :** 
 
 Afin d’avoir des bons résultats, on a commencé à préparer les entrés de modèles. Pour atteindre notre objective on a utilisé une technique qui s’appelle « One-Hot Encoding ».  Cette technique nous permet de transformer  une  variable  catégorique  en  plusieurs  variables  binaires.  On  l’a  utilisé  pour  la  variable  **« additifs »** en la transformant à 101 variables binaires.
-Le résultat se trouve dans la figure ce dessous.
+Le résultat se trouve dans la figur e ce dessous.
 <p align="center">
   <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/one-hot%20encoding.png?raw=true">
 </p>
@@ -234,6 +234,7 @@ Le résultat se trouve dans la figure ce dessous.
  
 
  Maintenant les entrés sont prêts et on peut commencer l’apprentissages. 
+ 
 2. **Les Modèles :** 
 
 Pour l’apprentissages on a décidé d’utiliser des modèles de différents comportements et architecture. Commençant par la régression linéaire pour confirmer le rejet de l’hypothèse qu’il est additif. Et après des modèles d’architecture Arbre et enfin un Modèle de Deep-learning qui est le réseau de neurones. En résumant les modèles utilisé sont comme suit : régression linéaire, arbre de décision, Random Forest et Réseau de neurones. 
@@ -244,9 +245,14 @@ Afin d’avoir le plus d’information, on a décidé de faire deux modèles de 
 
 En entrainant nos modèles sur la base complète on a eu des résultats convenants. Ces résultats sont présentés sur le graphe ci-dessous *figure 17* où on a le « Erreur absolue moyenne » pour chaque modèle utilisé. 
 
-![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.019.png)
-
-*Figure 16: Comparaison de l'erreur absolue moyenne pour chaque modèle* 
+<p align="center">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/comp1.png?raw=true">
+</p>
+<p align="center">
+<b>Figure 16: Comparaison de l'erreur absolue moyenne pour chaque modèle
+</b>
+</p> 
+ 
 
 Comme il montre la figure le pire c’est le modèle de régression linéaire ce qui est bien attendu après qu’on a  montré  que  le  modèle  est  non  additif.  En  contrepartie  le  Random  Forest  qui  est  un  modèle d’architecture arbre est le meilleur. Ces résultats sont bien attendus et se convient avec notre logique. 
 
@@ -254,9 +260,14 @@ Comme il montre la figure le pire c’est le modèle de régression linéaire ce
 
 En investiguant plus, on a entrainé les modèles sur une base des aliments avec zéro additif. Le résultat de ces modèles est représenté dans la figure ci-dessous.  
 
-![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.020.png)
-
-*Figure 17: Comparaison de l'erreur absolue moyenne pour chaque modèle sans additif* 
+<p align="center">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/comp2.png?raw=true">
+</p>
+<p align="center">
+<b>Figure 17: Comparaison de l'erreur absolue moyenne pour chaque modèle sans additif
+</b>
+</p> 
+ 
 
 En éliminant le critère des additifs la régression performe mieux mais n’a pas encore le meilleur. Dans tous les cas ces performance sont inutiles car on a éliminé un grand part des informations par supprimer les additives. 
 
@@ -264,4 +275,6 @@ En éliminant le critère des additifs la régression performe mieux mais n’a 
 
 Le score de Yuka est un moyen développé pour aider les consommateurs à choisir les bons aliments pour leurs  santés.  Mais  le  code  source  de  ce  score  n’est  pas  partagé  seule  l’attribution  de  chacun  est communique jusqu’à maintenant. En faisant notre étude on a constaté que score est n’est pas additif. Ça ne pose pas un grand problème mais le fait que n’est pas monotone avec le Nutri-score pose plusieurs questions. Sachant que le Nutri-score est développé par des organismes publics en France et utilisé avec l’accord de gouvernement. D’où c’est un peu difficile d’accepter un tel score lorsqu’il ne convient pas avec le Nutri-score.  Par suite il faut soit clarifier ce point par les responsables ou réviser l’algorithme de calcul et ajuster ce point. 
 
-Tout le travail réalisé est disponible sur ce Lien :[ https://www.kaggle.com/dhiagharsallaoui/final-yuka ](https://www.kaggle.com/dhiagharsallaoui/final-yuka)
+
+
+**Tout le travail réalisé est disponible sur ce Lien :[ https://www.kaggle.com/dhiagharsallaoui/final-yuka ](https://www.kaggle.com/dhiagharsallaoui/final-yuka)**
