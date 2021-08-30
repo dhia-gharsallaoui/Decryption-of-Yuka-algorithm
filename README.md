@@ -169,12 +169,6 @@ Après ça on a divisé ce tableau en deux en séparant les aliments avec indice
 </b>
 </p>
 
-<p align="center">
-</p>
-<p align="center">
-<b>Figure 10: Exemple de U<sub>N</sub> des aliments NON Bio
-</b>
-</p>
 
 
 
