@@ -162,14 +162,14 @@ Avec **I<sub>BIO</sub>** représente l’indice Bio qui est égale à 1 si l’a
 Après ça on a divisé ce tableau en deux en séparant les aliments avec indice Bio égale à 1 et ceux avec indice Bio égale à 0. On a fait ça pour voir le comportement de chaque famille indépendamment d’où on limite les effets de critère Bio. 
 <p align="center">
   <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/exemple Un BIO.png?raw=true">   
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/exemple Un non BIO.png?raw=true">
 </p>
 <p align="center">
-<b>Figure 9: Exemple de U<sub>N</sub> des aliments Bio 
+<b>Figure 9: Exemple de U<sub>N</sub> des aliments Bio               Figure 10: Exemple de U<sub>N</sub> des aliments NON Bio
 </b>
 </p>
 
 <p align="center">
-  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/exemple Un non BIO.png?raw=true">   
 </p>
 <p align="center">
 <b>Figure 10: Exemple de U<sub>N</sub> des aliments NON Bio
