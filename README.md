@@ -147,19 +147,36 @@ Et dans ce cas pour calculer la fonction Utilité de Nutri-score on a utilisé l
   <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/formule2.PNG?raw=true">   
 </p>
     
-Avec **IBIO** représente l’indice Bio qui est égale à 1 si l’aliment porte la label biologique et 0 sinon. 
+Avec **I<sub>BIO</sub>** représente l’indice Bio qui est égale à 1 si l’aliment porte la label biologique et 0 sinon. 
 
-![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.011.png)
+<p align="center">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/exemple Un.png?raw=true">   
+</p>
+<p align="center">
+<b>Figure 8: Exemple de calcul de U<sub>N</sub>
+</b>
+</p>
 
-*Figure 8: Exemple de calcul de UN* 
+ 
 
 Après ça on a divisé ce tableau en deux en séparant les aliments avec indice Bio égale à 1 et ceux avec indice Bio égale à 0. On a fait ça pour voir le comportement de chaque famille indépendamment d’où on limite les effets de critère Bio. 
+<p align="center">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/exemple Un BIO.png?raw=true">   
+</p>
+<p align="center">
+<b>Figure 9: Exemple de U<sub>N</sub> des aliments Bio 
+</b>
+</p>
 
-*Figure 9: Exemple de UN des aliments Bio ![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.012.png)*
+<p align="center">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/exemple Un non BIO.png?raw=true">   
+</p>
+<p align="center">
+<b>Figure 10: Exemple de U<sub>N</sub> des aliments NON Bio
+</b>
+</p>
 
-![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.013.png)
 
-*Figure 10: Exemple de UN des aliments NON Bio* 
 
 Après préparer les tableaux ce dessus on à essayer de tracer les fonctions utilité UN en fonction des Nutri- score. Les graphes représentent ces fonctions sont ce dessous nous aide à interpréter plus d’informations sur leurs variations.  
 
