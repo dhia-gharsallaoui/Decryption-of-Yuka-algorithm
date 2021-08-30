@@ -144,9 +144,7 @@ Pour analyser mieux l’effet de Nutri score on a éliminé les effets des addit
 
 Et dans ce cas pour calculer la fonction Utilité de Nutri-score on a utilisé la formule suivante : 
 <p align="center">
-<b>
-  U<sub>N</sub> (X) = Score Yuka(X) – (30 + 10*I<sub>BIO</sub>) (2)
-</b> 
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/formule2.png?raw=true">   
 </p>
     
 Avec **IBIO** représente l’indice Bio qui est égale à 1 si l’aliment porte la label biologique et 0 sinon. 
