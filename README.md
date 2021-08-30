@@ -165,7 +165,7 @@ Après ça on a divisé ce tableau en deux en séparant les aliments avec indice
   <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/exemple Un non BIO.png?raw=true">
 </p>
 <p align="center">
-<b>Figure 9: Exemple de U<sub>N</sub> des aliments Bio               Figure 10: Exemple de U<sub>N</sub> des aliments NON Bio
+<b>Figure 9: Exemple de U<sub>N</sub> des aliments Bio    &emsp;   Figure 10: Exemple de U<sub>N</sub> des aliments NON Bio
 </b>
 </p>
 
