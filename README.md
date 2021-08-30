@@ -204,9 +204,13 @@ En regardant les graphes ci-dessus, on peut voir qu'il y a des utilités différ
 
 Ces résultats nous donnent l’intuition d’investiguer si ce score Yuka est croissant avec le Nutri score comme il est déclaré ou non. Et pour faire ça, j’ai parcouru ma base pour trouver s’il y a un contre-exemple de monotonie. Et par le contre-exemple, je veux dire deux aliments qui ont le même critère BIO avec le même nombre d’additifs qui est zéro et ayant des Nutri score différents ne vérifiant pas la monotonie. C’est-à-dire l’aliment, avec le plus grand Nutri score, a le plus grand score Yuka. 
 
-![](Aspose.Words.1ad758f9-9bb6-4a64-8118-0b72fabf0688.017.png)
-
-*Figure 14: Contre-exemple de la monotonie du Score Yuka* 
+<p align="center">
+  <img src="https://github.com/dhia-gharsallaoui/Decryption-of-Yuka-algorithm/blob/main/images/contre%20exemple.png?raw=true">
+</p>
+<p align="center">
+<b>Figure 14: Contre-exemple de la monotonie du Score Yuka
+</b>
+</p> 
 
 Comme il montre le contre-exemple ci-dessus, le score Yuka n’est pas monotone. Aussi ce Score ne peut pas être un modèle additif d’où cette hypothèse est rejetée.  
 
